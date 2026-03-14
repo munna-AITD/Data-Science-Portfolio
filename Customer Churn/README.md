@@ -1,14 +1,14 @@
-Customer Churn Prediction Using Machine Learning
+**Customer Churn Prediction Using Machine Learning**
 
 Predicting customer churn is a critical problem for subscription-based businesses such as telecommunications, banking, and online services. In this project, a machine learning model is developed to predict whether a customer is likely to leave a company based on historical service usage and demographic data.
 
 This project demonstrates the application of machine learning, exploratory data analysis used techniques to identify the key factors influencing customer churn.
 
-Project Overview
+**Project Overview**
 
 The goal of this project is to develop a predictive model capable of identifying customers who are at high risk of leaving the service. Early prediction allows companies to take proactive retention measures.
 
-Key steps in the project include:
+**Key steps in the project include:**
 
 Data preprocessing
 
@@ -20,12 +20,12 @@ Machine learning model development
 
 Model evaluation
 
-Tools and Technologies
+**Tools and Technologies**
 
 Programming Language
 Python
 
-Libraries Used
+**Libraries Used**
 
 Pandas
 
@@ -37,14 +37,12 @@ Matplotlib
 
 Seaborn
 
-SHAP
-
-Machine Learning Model
+**Machine Learning Model**
 
 Random Forest Classifier
 Dataset Description
 
-The dataset contains customer information from a telecommunications company.
+**The dataset contains customer information from a telecommunications company.**
 
 Main features include:
 | Feature         | Description                |
@@ -59,7 +57,7 @@ Main features include:
 | InternetService | Internet plan              |
 | Churn           | Target variable            |
 
-Exploratory Data Analysis
+**Exploratory Data Analysis**
 
 Exploratory data analysis was performed to understand patterns in customer behavior.
 
@@ -85,7 +83,7 @@ Training set: 80%
 Testing set: 20%
 Model Evaluation
 
-The model was evaluated using several metrics:
+**The model was evaluated using several metrics:**
 
 Accuracy
 
@@ -97,7 +95,7 @@ F1 Score
 
 ROC-AUC
 
-Key Business Insights
+**Key Business Insights**
 
 Customers with month-to-month contracts have the highest churn rate.
 
@@ -107,7 +105,7 @@ Higher monthly charges increase churn probability.
 
 Long-term contracts improve customer retention.
 
-Business Recommendations
+**Business Recommendations**
 
 Companies can reduce churn by:
 
@@ -120,7 +118,7 @@ Optimizing pricing strategies
 Using predictive models for early churn detection
 Future Improvements
 
-Future improvements could include:
+**Future improvements could include:**
 
 XGBoost and LightGBM models
 
